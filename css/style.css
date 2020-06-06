@@ -1,0 +1,318 @@
+/*font-family: 'Playfair Display', serif;*/
+/*font-family: 'Ubuntu', sans-serif;*/
+/*font-family: 'Inconsolata', monospace;*/
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Playfair Display', serif;
+}
+/*header start*/
+header{ 
+	
+	padding: 15px 0;
+ }
+.container{
+	width: 90%;
+	margin: 0 auto;
+	overflow: hidden;
+
+
+}
+.container2{
+	width: 80%;
+	margin: 0 auto;
+	overflow: hidden;
+	
+}
+.logo{
+	float: left;
+	width: 13%;
+	margin-top: 8px; 
+}
+.logo img{
+	width: 100%;
+
+}
+.menu{
+    float: right;
+    width: 70%;
+}
+.menu ul{
+    float: right;
+
+}
+.menu ul li{
+   float: left;
+    list-style: none;   
+    transition: .3s;
+}
+.menu ul li a{
+	color: #626262;
+	text-decoration: none;
+	text-transform: uppercase;
+	display: inline-block;
+	border-bottom: 1px solid transparent;
+	margin: 0 50px;
+	padding-bottom: 5px;
+	transition: .3s;
+
+}
+.menu ul li a:hover{
+	border-bottom: 1px solid #626262; 
+}
+.menu ul li:last-child a{
+	padding-right: 0;
+}
+/*header end*/
+/*banner start*/
+.banner{}
+.b_img{}
+.b_img img{
+	width: 100%;
+}
+
+/*banner end*/
+/*about start*/
+.about{
+	padding-top: 70px;
+	padding-bottom: 90px;
+
+}
+
+.about_content{}
+.text{
+	font-family: 'Ubuntu', sans-serif; 
+	font-weight: 300;
+	font-size: 14px;
+	color: #b4ad9e;
+	text-transform: uppercase;
+	margin: 0;
+}
+.title{
+	font-weight: 400;
+	font-size: 30px;
+	color:#626262;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+.text1{
+	font-weight: 400;
+	color: #626262;
+	line-height: 25px;
+	margin-top: 0;
+	margin-bottom: 40px;
+}
+
+/*about end*/
+/*blog start*/
+.blog{
+	padding-bottom: 90px;
+}
+.single{
+	width: 47%;
+	 
+	float: left;
+	margin-top: 50px;
+}
+.single:nth-child(even){
+	margin-left: 6%;
+
+}
+.single img{
+	width: 100%;
+	margin-bottom: 20px;
+}
+/*blog end*/
+/*news start*/
+.news{
+	background-color: #f0f0f0;
+	min-height: 400px;
+}
+.newsletter{
+    background-color: #f0f0f0;
+    text-align: center;
+}
+.newsletter h1{
+    font-size: 30px;
+    color: #333333;
+    margin: 70px;
+}
+.form1 input{
+    background: transparent;
+    border: none;
+    padding: 10px 0px;
+    border-bottom: 1px solid #000;
+    font-size: 16px;
+    width: 270px;
+    outline: none;
+}
+.newsletter button{
+    padding: 11px 10px;
+    border-style: none;
+    margin-bottom: 70px;
+    border-bottom: 1px solid #000;
+    margin-left: -4px;
+    cursor: pointer;
+    outline: none;
+    margin-right: -8px;
+}
+.newsletter button a{
+    font-family:Playfair Display;
+    font-size: 18px;
+}
+/*news end*/
+
+/*blog2 start*/
+.blog2{
+   	padding-top: 70px;
+	padding-bottom: 90px;
+    }
+
+/*blog2 end*/
+/*load start*/
+.load{
+	padding-top: 70px;
+	padding-bottom: 90px;
+}
+.container3{
+	text-align: center;
+}
+.container3 button{
+	font-family: 'Playfair Display', serif;
+	font-weight: 400;
+	font-size: 20px;
+	color: #626262;
+	background: none;
+	border: none;
+	border: 1px solid #626262;
+	cursor: pointer;
+	width: 160px;
+	height: 50px;
+	transition: .3s;
+}
+.container3 button:focus{
+	outline: 0;
+}
+.container3 button:hover{
+	background-color:  #626262;
+	color: white;
+}
+/*load end*/
+/*Footer start*/
+
+.footer{
+
+background-color: #f0f0f0;
+
+
+}
+.container_4{
+
+	width: 90%;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 25px 0;
+}
+
+.terms{
+
+width: 30%;
+
+float: left;
+
+overflow: hidden;
+
+margin:13px 0;
+}
+
+
+
+
+
+.terms  a{
+	
+	text-decoration: none;
+	padding:0 10px;
+	font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    font-weight: 300;
+    color:#000000;
+    display: inline-block;
+}
+
+.terms  a:hover{
+
+	color: #626262;
+}
+
+
+
+#terms_left{
+
+	padding-left: 0px;
+}
+
+
+
+.social{
+
+width: 24%;
+
+float: right;
+}
+
+.social ul{
+
+float: right;
+
+}
+
+.social ul li{
+
+list-style: none;
+float:left;
+
+
+}
+
+.social ul a {
+
+text-decoration: none;
+padding:0 10px;
+font-family: 'Playfair Display', serif;
+font-size: 16px;
+font-weight: 300;
+color:#626262;
+display: inline-block;
+transition: .4s;
+
+}
+
+.social ul li:last-child a{
+
+	padding-right: 0;
+}
+
+.social ul li:first-child a{
+
+	color: black;
+}
+
+.social ul a:hover {
+
+	background: #626262;
+	color: #fff;
+
+}
+
+.social ul li:first-child a:hover{
+
+	color: #626262;
+}
+
+
+
+
+/*Footer end*/
+
+
